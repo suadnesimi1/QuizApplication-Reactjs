@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+   
+    <div class="start_btn"><button>Click to Start</button></div>
+
+    
+    <div class="info_box">
+        <div class="info-title"><span>Rules of the quiz<br>Please,read them carefully!</br</span></div>
+        <div class="info-list">
+            <div class="info">1. The quiz consists of <span>10 questions</span> in total!</div>
+            <div class="info">2. You will have only <span>20 seconds</span> per each question!</div>
+            <div class="info">3. Only one answer is correct!</div>
+            <div class="info">4. Once you choose the answer, it will be shown to you <br>whether it is correct or not!</br></div>
+            <div class="info">5. To pass the quiz you need at least 6 correct answers!</div>
+            <div class="info">6.You can get out of the quiz anytime!</div>
+            <div class="info">7.At the end of the quiz you can click to play again!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Agree</button>
+        </div>
+    </div>
+
+    
+    <div class="quiz_box">
+        <header>
+            <div class="title">Short Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time</div>
+                <div class="timer_sec">20</div>
+            
+        </header>
+        <section>
+            <div class="que_text">
+               
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+
+      
+        <footer>
+            <div class="total_que">
+              
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa fa-tick"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            
+        </div>
+        <div class="buttons">
+            <button class="restart">Try Again</button>
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+
+    
+    <script src="js/questions.js"></script>
+
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
